@@ -1,0 +1,36 @@
+2026-07-04 19:49:51.281 [http-nio-8080-exec-9] DEBUG c.t.q.m.UserMapper.findByUsername - ==>  Preparing: SELECT * FROM users WHERE username = ?
+2026-07-04 19:49:51.323 [http-nio-8080-exec-9] DEBUG c.t.q.m.UserMapper.findByUsername - ==> Parameters: student1(String)
+2026-07-04 19:49:51.375 [http-nio-8080-exec-9] DEBUG c.t.q.m.UserMapper.findByUsername - <==      Total: 1
+2026-07-04 19:49:54.743 [http-nio-8080-exec-10] DEBUG c.t.q.m.UserMapper.findByUsername - ==>  Preparing: SELECT * FROM users WHERE username = ?
+2026-07-04 19:49:54.744 [http-nio-8080-exec-10] DEBUG c.t.q.m.UserMapper.findByUsername - ==> Parameters: student1(String)
+2026-07-04 19:49:54.748 [http-nio-8080-exec-10] DEBUG c.t.q.m.UserMapper.findByUsername - <==      Total: 1
+2026-07-04 19:49:56.043 [http-nio-8080-exec-1] DEBUG c.t.q.m.UserMapper.findByUsername - ==>  Preparing: SELECT * FROM users WHERE username = ?
+2026-07-04 19:49:56.045 [http-nio-8080-exec-1] DEBUG c.t.q.m.UserMapper.findByUsername - ==> Parameters: student1(String)
+2026-07-04 19:49:56.046 [http-nio-8080-exec-1] DEBUG c.t.q.m.UserMapper.findByUsername - <==      Total: 1
+2026-07-04 19:50:03.028 [http-nio-8080-exec-2] DEBUG c.t.q.m.UserMapper.findByUsername - ==>  Preparing: SELECT * FROM users WHERE username = ?
+2026-07-04 19:50:03.029 [http-nio-8080-exec-2] DEBUG c.t.q.m.UserMapper.findByUsername - ==> Parameters: student1(String)
+2026-07-04 19:50:03.031 [http-nio-8080-exec-2] DEBUG c.t.q.m.UserMapper.findByUsername - <==      Total: 1
+2026-07-04 22:11:55.413 [http-nio-8080-exec-2] DEBUG c.t.q.m.UserMapper.findByUsername - ==>  Preparing: SELECT * FROM users WHERE username = ?
+2026-07-04 22:11:55.488 [http-nio-8080-exec-2] DEBUG c.t.q.m.UserMapper.findByUsername - ==> Parameters: admin(String)
+2026-07-04 22:11:55.550 [http-nio-8080-exec-2] DEBUG c.t.q.m.UserMapper.findByUsername - <==      Total: 1
+2026-07-04 22:13:11.776 [http-nio-8080-exec-4] DEBUG c.t.q.m.UserMapper.findByUsername - ==>  Preparing: SELECT * FROM users WHERE username = ?
+2026-07-04 22:13:11.778 [http-nio-8080-exec-4] DEBUG c.t.q.m.UserMapper.findByUsername - ==> Parameters: admin(String)
+2026-07-04 22:13:11.781 [http-nio-8080-exec-4] DEBUG c.t.q.m.UserMapper.findByUsername - <==      Total: 1
+2026-07-04 22:17:21.574 [http-nio-8080-exec-7] DEBUG c.t.q.m.UserMapper.findByUsername - ==>  Preparing: SELECT * FROM users WHERE username = ?
+2026-07-04 22:17:21.574 [http-nio-8080-exec-7] DEBUG c.t.q.m.UserMapper.findByUsername - ==> Parameters: admin(String)
+2026-07-04 22:17:21.574 [http-nio-8080-exec-7] DEBUG c.t.q.m.UserMapper.findByUsername - <==      Total: 1
+2026-07-04 22:18:10.348 [http-nio-8080-exec-6] DEBUG c.t.q.m.UserMapper.findByUsername - ==>  Preparing: SELECT * FROM users WHERE username = ?
+2026-07-04 22:18:10.348 [http-nio-8080-exec-6] DEBUG c.t.q.m.UserMapper.findByUsername - ==> Parameters: admin(String)
+2026-07-04 22:18:10.351 [http-nio-8080-exec-6] DEBUG c.t.q.m.UserMapper.findByUsername - <==      Total: 1
+2026-07-04 22:20:11.928 [http-nio-8080-exec-5] DEBUG c.t.q.m.UserMapper.findByUsername - ==>  Preparing: SELECT * FROM users WHERE username = ?
+2026-07-04 22:20:11.929 [http-nio-8080-exec-5] DEBUG c.t.q.m.UserMapper.findByUsername - ==> Parameters: admin(String)
+2026-07-04 22:20:11.931 [http-nio-8080-exec-5] DEBUG c.t.q.m.UserMapper.findByUsername - <==      Total: 1
+2026-07-04 22:20:11.935 [http-nio-8080-exec-5] DEBUG c.t.q.mapper.UserMapper.updateToken - ==>  Preparing: UPDATE users SET token = ? WHERE id = ?
+2026-07-04 22:20:11.936 [http-nio-8080-exec-5] DEBUG c.t.q.mapper.UserMapper.updateToken - ==> Parameters: b2e9079a3fcf4f5aafb6c68deaa00cbb(String), 1(Long)
+2026-07-04 22:20:11.940 [http-nio-8080-exec-5] DEBUG c.t.q.mapper.UserMapper.updateToken - <==    Updates: 1
+2026-07-04 22:24:23.320 [http-nio-8080-exec-3] DEBUG c.t.q.m.UserMapper.findByUsername - ==>  Preparing: SELECT * FROM users WHERE username = ?
+2026-07-04 22:24:23.320 [http-nio-8080-exec-3] DEBUG c.t.q.m.UserMapper.findByUsername - ==> Parameters: admin(String)
+2026-07-04 22:24:23.322 [http-nio-8080-exec-3] DEBUG c.t.q.m.UserMapper.findByUsername - <==      Total: 1
+2026-07-04 22:24:23.323 [http-nio-8080-exec-3] DEBUG c.t.q.mapper.UserMapper.updateToken - ==>  Preparing: UPDATE users SET token = ? WHERE id = ?
+2026-07-04 22:24:23.324 [http-nio-8080-exec-3] DEBUG c.t.q.mapper.UserMapper.updateToken - ==> Parameters: ddbe95e435394d07ac0c6ea7ba4c1c09(String), 1(Long)
+2026-07-04 22:24:23.326 [http-nio-8080-exec-3] DEBUG c.t.q.mapper.UserMapper.updateToken - <==    Updates: 1
